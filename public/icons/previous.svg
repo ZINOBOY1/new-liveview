@@ -1,41 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
-	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
-	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
-	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
-	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
-	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
-	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
-	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
-]>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg fill="#fff" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="800px" height="800px"
-	 viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
-<metadata>
-	<sfw  xmlns="&ns_sfw;">
-		<slices>
-
-</slices>
-		<sliceSourceBounds  width="505" height="984" bottomLeftOrigin="true" x="0" y="-552">
-
-</sliceSourceBounds>
-	</sfw>
-</metadata>
-<g>
-	<g>
-		<g>
-			<path d="M21,19c-0.2,0-0.4-0.1-0.6-0.2l-9-6C11.2,12.6,11,12.3,11,12s0.2-0.6,0.4-0.8l9-6c0.3-0.2,0.7-0.2,1,0
-				C21.8,5.3,22,5.6,22,6v12c0,0.4-0.2,0.7-0.5,0.9C21.3,19,21.2,19,21,19z M13.8,12l6.2,4.1V7.9L13.8,12z"/>
-		</g>
-	</g>
-	<g>
-		<g>
-			<path d="M12,19c-0.2,0-0.4-0.1-0.6-0.2l-9-6C2.2,12.6,2,12.3,2,12s0.2-0.6,0.4-0.8l9-6c0.3-0.2,0.7-0.2,1,0C12.8,5.3,13,5.6,13,6
-				v12c0,0.4-0.2,0.7-0.5,0.9C12.3,19,12.2,19,12,19z M4.8,12l6.2,4.1V7.9L4.8,12z"/>
-		</g>
-	</g>
-</g>
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5 0C5.55228 0 6 0.44772 6 1V2H14V1C14 0.44772 14.4477 0 15 0C15.5523 0 16 0.44772 16 1V2H17C18.6569 2 20 3.34315 20 5V12C20 12.5523 19.5523 13 19 13C18.4477 13 18 12.5523 18 12V8H2V17C2 17.5523 2.44772 18 3 18H8C8.5523 18 9 18.4477 9 19C9 19.5523 8.5523 20 8 20H3C1.34315 20 0 18.6569 0 17V5C0 3.34315 1.34315 2 3 2H4V1C4 0.44772 4.44772 0 5 0ZM3 4C2.44772 4 2 4.44772 2 5V6H18V5C18 4.44772 17.5523 4 17 4H3Z" fill="#C9DDFF"/>
+<path d="M14.7071 15.7071C15.0976 15.3166 15.0976 14.6834 14.7071 14.2929C14.3166 13.9024 13.6834 13.9024 13.2929 14.2929L11.2929 16.2929C10.9024 16.6834 10.9024 17.3166 11.2929 17.7071L13.2929 19.7071C13.6834 20.0976 14.3166 20.0976 14.7071 19.7071C15.0976 19.3166 15.0976 18.6834 14.7071 18.2929L13.4142 17L14.7071 15.7071Z" fill="#C9DDFF"/>
+<path d="M19.7071 14.2929C20.0976 14.6834 20.0976 15.3166 19.7071 15.7071L18.4142 17L19.7071 18.2929C20.0976 18.6834 20.0976 19.3166 19.7071 19.7071C19.3166 20.0976 18.6834 20.0976 18.2929 19.7071L16.2929 17.7071C15.9024 17.3166 15.9024 16.6834 16.2929 16.2929L18.2929 14.2929C18.6834 13.9024 19.3166 13.9024 19.7071 14.2929Z" fill="#C9DDFF"/>
 </svg>
