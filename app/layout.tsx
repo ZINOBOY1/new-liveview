@@ -38,7 +38,7 @@ export default function RootLayout({
           },
         }}
       >
-       <body className={`${inter.className} bg-teal-500 text-white`}>
+       <body className={`${inter.className} bg-gray-900  text-white`}>
         <Toaster />
         {children}
       </body>

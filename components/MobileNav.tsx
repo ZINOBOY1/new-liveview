@@ -23,7 +23,7 @@ const MobileNav = () => {
             className="cursor-pointer sm:hidden"
           />
         </SheetTrigger>
-        <SheetContent side="left" className="border-none bg-teal-500">
+        <SheetContent side="left" className="border-none bg-gray-900">
           <Link href="/" className="flex items-center gap-1 p-4">
             <Image
               src="/icons/logotop.svg"
@@ -46,8 +46,8 @@ const MobileNav = () => {
                         className={cn(
                           'flex gap-4 items-center p-4 rounded-lg w-full max-w-60',
                           {
-                            'bg-teal-600': isActive,  // Active state color (darker teal)
-                            'hover:bg-teal-700': !isActive,  // Hover effect for non-active links
+                            'hover:bg-gray-600': isActive,  // Active state color (darker teal)
+                            'hover:bg-gray-800': !isActive,  // Hover effect for non-active links
                           }
                         )}
                       >
