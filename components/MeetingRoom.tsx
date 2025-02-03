@@ -34,7 +34,6 @@ const MeetingRoom = () => {
   const [showParticipants, setShowParticipants] = useState(false);
   const { useCallCallingState } = useCallStateHooks();
 
-  // for more detail about types of CallingState see: https://getstream.io/video/docs/react/ui-cookbook/ringing-call/#incoming-call-panel
   const callingState = useCallCallingState();
 
   if (callingState !== CallingState.JOINED) return <Loader />;
@@ -51,9 +50,9 @@ const MeetingRoom = () => {
   };
 
   return (
-    <section className="relative h-screen w-full overflow-hidden pt-4 text-white">
+    <section className="relative h-screen w-full overflow-hidden pt-4 bg-gray-900 text-white">
       <div className="relative flex size-full items-center justify-center">
-        <div className="flex w-full max-w-[1000px] items-center px-10">
+        <div className="flex w-full max-w-[1000px] items-center px-4 sm:px-10">
           <CallLayout />
         </div>
         <div
@@ -64,13 +63,14 @@ const MeetingRoom = () => {
           <CallParticipantsList onClose={() => setShowParticipants(false)} />
         </div>
       </div>
+      
       {/* video layout and call controls */}
-      <div className="fixed bottom-0 flex w-full items-center justify-center gap-5 p-4 sm:p-6 md:p-8">
+      <div className="fixed bottom-0 flex w-full items-center justify-center gap-3 sm:gap-5 p-4 sm:p-6 md:p-8 flex-wrap bg-[#1f2937]">
         <CallControls onLeave={() => router.push(`/`)} />
 
         <DropdownMenu>
           <div className="flex items-center">
-            <DropdownMenuTrigger className="cursor-pointer rounded-2xl bg-[#19232d] px-4 py-2 hover:bg-[#4c535b]">
+            <DropdownMenuTrigger className="cursor-pointer rounded-2xl bg-[#19232d] px-3 py-2 sm:px-4 sm:py-2 hover:bg-[#4c535b]">
               <LayoutList size={20} className="text-white" />
             </DropdownMenuTrigger>
           </div>
@@ -89,12 +89,15 @@ const MeetingRoom = () => {
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
+
         <CallStatsButton />
+
         <button onClick={() => setShowParticipants((prev) => !prev)}>
-          <div className="cursor-pointer rounded-2xl bg-[#19232d] px-4 py-2 hover:bg-[#4c535b]">
+          <div className="cursor-pointer rounded-2xl bg-[#19232d] px-3 py-2 sm:px-4 sm:py-2 hover:bg-[#4c535b]">
             <Users size={20} className="text-white" />
           </div>
         </button>
+
         {!isPersonalRoom && <EndCallButton />}
       </div>
     </section>
